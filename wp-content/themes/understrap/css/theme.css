@@ -9133,6 +9133,10 @@ a.skip-link {
 .gallery-caption {
   display: block; }
 
+.header {
+  background-color: #0d4d31;
+  padding: 20px 0 20px 0; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style
