@@ -1,5 +1,51 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+body {
+    background-image: url('/cowsandsheep.dev/images/cows-and-sheep-bg.jpg'); 
+    background-size: cover;
+    font-family: $font-family-montserrat;
+}
+
 .header {
     background-color: $brand-green;
-    padding: 20px 0 20px 0;
+}
+
+.header {
+    .logo {padding: $padding-20upper-20lower}
+    .col{
+        .content {
+            text-align:center;
+            color: $normal-color;
+            a {
+                font-size: $font-size-standard; 
+                color: $normal-color; 
+                text-decoration: none;
+            }
+            a:hover { color: $hover-color; }
+        }
+    }
+    .login {
+        padding-top: 5px;
+        background-image: url('/cowsandsheep.dev/images/cows-and-sheep-sign-up-bg.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    .social {
+        background-image: url('/cowsandsheep.dev/images/cows-and-sheep-social-bg.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+        .content {
+            ul {
+                li {
+                    float:left;
+                    list-style-type: none;
+                    margin: 10px 0 0 2px;
+                }
+            }
+            .nav-menu { 
+                float:left; width: 54%; margin-top: 5px; 
+                .menu { margin-left:46px; }
+            }
+            .nav-social { float:left; width: 46%; }
+        }
+    }
 }
