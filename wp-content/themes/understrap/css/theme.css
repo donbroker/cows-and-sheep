@@ -9138,9 +9138,6 @@ body {
   background-size: cover;
   font-family: "Montserrat", sans-serif; }
 
-.header {
-  background-color: #0d4d31; }
-
 .header .logo {
   padding: 20px 0 20px 0; }
 
@@ -9176,7 +9173,12 @@ body {
       margin-left: 46px; }
   .header .social .content .nav-social {
     float: left;
-    width: 46%; }
+    width: 46%;
+    position: relative;
+    right: 15px; }
+
+.slider {
+  padding: 100px 0 100px 0; }
 
 /*
 * Use existing Bootstrap 4 classes and

@@ -6,10 +6,7 @@ body {
 }
 
 .header {
-    background-color: $brand-green;
-}
-
-.header {
+    // background-color: $brand-green;
     .logo {padding: $padding-20upper-20lower}
     .col{
         .content {
@@ -45,7 +42,9 @@ body {
                 float:left; width: 54%; margin-top: 5px; 
                 .menu { margin-left:46px; }
             }
-            .nav-social { float:left; width: 46%; }
+            .nav-social { float:left; width: 46%; position:relative; right:15px; }
         }
     }
 }
+
+.slider { padding: $padding-100upper-100lower }
