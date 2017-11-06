@@ -5,6 +5,8 @@ body {
     font-family: $font-family-montserrat;
 }
 
+
+// HEADER
 .header {
     // background-color: $brand-green;
     .logo {padding: $padding-20upper-20lower}
@@ -47,4 +49,14 @@ body {
     }
 }
 
+// HOMEPAGE
 .slider { padding: $padding-100upper-100lower }
+
+// FOOTER
+.footer { 
+    width: 100%;
+    height: 36px;
+    background-image: url('/cowsandsheep.dev/images/cows-and-sheep-footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+ }

@@ -9180,6 +9180,13 @@ body {
 .slider {
   padding: 100px 0 100px 0; }
 
+.footer {
+  width: 100%;
+  height: 36px;
+  background-image: url("/cowsandsheep.dev/images/cows-and-sheep-footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom center; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style

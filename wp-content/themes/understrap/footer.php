@@ -11,8 +11,17 @@ $the_theme = wp_get_theme();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<?php wp_footer(); ?>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="footer">
 
+            </div>  
+        </div>
+    <div>
+</div>
+
+<?php wp_footer(); ?>
 </body>
 
 </html>
