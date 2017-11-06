@@ -15,7 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
 		<div class="row">
 			<div class="col">
-				<?php echo do_shortcode( '[adverts_list]' ); ?>
+				<div class="search-container"></div>
 			</div>
 		</div><!-- .row end -->
 	</div><!-- Container end -->

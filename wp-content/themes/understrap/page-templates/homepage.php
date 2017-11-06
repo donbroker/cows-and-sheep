@@ -19,7 +19,38 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
 		<div class="row">
 			<div class="col">
-				<?php echo do_shortcode( '[adverts_list]' ); ?>
+				<div class="search-container">
+					<div class="row">
+						<div class="col-sm-1">
+							<img src="<?php echo site_url(); ?>/images/cows-and-sheep-magnifying-glass.png" />
+						</div>   
+						<div class="col">
+							 <img src="<?php echo site_url(); ?>/images/cows-and-sheep-sheep-search-bg.png" />
+						</div>
+						<div class="col">
+							<select>
+								<option value="armagh">Armagh</option>
+								<option value="down">Down</option>
+								<option value="tyrone">Tyrone</option>
+							</select>
+						</div>
+						<div class="col">
+							<input type="text" name="Area" value="Area">
+						</div>
+						<div class="col">
+							<select>
+								<option value="one">1</option>
+								<option value="two">2</option>
+								<option value="three">3</option>
+								<option value="twentyone">21</option>
+							</select>
+						</div>
+						<div class="col">
+							<a href="<?php echo site_url(); ?>/?s=sheep&post_type=cows_and_sheep&cow_or_sheep=sheep&county=armagh&area=lurgan&age=21" class="submit-search">SEARCH</a>
+						</div> 
+					<div>
+					</div>	
+				</div>
 			</div>
 		</div><!-- .row end -->
 	</div><!-- Container end -->
