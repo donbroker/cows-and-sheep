@@ -28,17 +28,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 							 <img src="<?php echo site_url(); ?>/images/cows-and-sheep-sheep-search-bg.png" />
 						</div>
 						<div class="col">
-							<select>
-								<option value="armagh">Armagh</option>
+							<select id="county">
+								<option selected="selected" value="armagh">Armagh</option>
 								<option value="down">Down</option>
 								<option value="tyrone">Tyrone</option>
 							</select>
 						</div>
 						<div class="col">
-							<input type="text" name="Area" value="Area">
+							<input type="text" id="area" name="Area">
 						</div>
 						<div class="col">
-							<select>
+							<select id="age">
 								<option value="one">1</option>
 								<option value="two">2</option>
 								<option value="three">3</option>
@@ -46,7 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							</select>
 						</div>
 						<div class="col">
-							<a href="<?php echo site_url(); ?>/?s=sheep&post_type=cows_and_sheep&cow_or_sheep=sheep&county=armagh&area=lurgan&age=21" class="submit-search">SEARCH</a>
+							<button id="myButton" class="float-left submit-button">SEARCH</button>
 						</div> 
 					<div>
 					</div>	

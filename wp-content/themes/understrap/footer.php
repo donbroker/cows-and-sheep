@@ -21,6 +21,19 @@ $container = get_theme_mod( 'understrap_container_type' );
     <div>
 </div>
 
+<script type="text/javascript">
+	document.getElementById("myButton").onclick = function () {
+        var url = Searchify({
+		    post_type: 'cows_and_sheep',
+		    cow_or_sheep: 'sheep',
+		    county: document.getElementById('county').value,
+		    area: document.getElementById('area').value,
+		    age: document.getElementById('age').value
+	    });
+       	location.href = url;
+   	};
+</script>
+
 <?php wp_footer(); ?>
 </body>
 
